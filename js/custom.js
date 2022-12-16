@@ -1,6 +1,4 @@
 // Custom Script
-// Developed by: Samson.Onna
-// CopyRights : http://webthemez.com
 var customScripts = {
     profile: function () {
      	 var portfolio = $('#portfolio');
@@ -117,10 +115,10 @@ $('document').ready(function () {
    var map;
 
    // main directions
-   map = new GMaps({
-      el: '#map', lat: 14.553533, lng: 121.052124, zoom: 14, zoomControl : true,
-      zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : false, scrollwheel: false
-   });
+//    map = new GMaps({
+//       el: '#map', lat: 14.553533, lng: 121.052124, zoom: 14, zoomControl : true,
+//       zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : false, scrollwheel: false
+//    });
 
    // add address markers
    map.addMarker({ lat: 14.552891, lng: 121.051815, title: 'WebThemez',
