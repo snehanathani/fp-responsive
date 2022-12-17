@@ -121,7 +121,7 @@ $('document').ready(function () {
 //    });
 
    // add address markers
-   map.addMarker({ lat: 14.552891, lng: 121.051815, title: 'WebThemez',
+//    map.addMarker({ lat: 14.552891, lng: 121.051815, title: 'WebThemez',
    infoWindow: { content: '<p>WebThemez</p>' } });
 
     $('#main-slider').flexslider({
@@ -168,4 +168,3 @@ $('document').ready(function () {
         asNavFor            : "",                //{NEW} Selector: Internal property exposed for turning the slider into a thumbnail navigation for another slider
     });
 
-});
