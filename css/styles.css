@@ -319,6 +319,7 @@ background-color: #000000;
 	border-bottom: 4px solid #a30046;
 }
 .carousel-inner > .item {
+	color: #fff;
 }
 .carousel-caption {
 	padding: 0px;
@@ -419,6 +420,7 @@ background-color: #000000;
 	border-radius: 0px;
 }
 .navbar-inverse .navbar-nav > .active {
+	color: #fff;
 }
 .navbar-nav > li:hover > a {
 	color: #fff;
@@ -528,6 +530,7 @@ a.arrow-link:hover {
 	color: #fff;
 }
 .colord { 
+	color: #fff;
 }
 .colord p {
     color: #939393;
@@ -674,6 +677,7 @@ color: #131313;
 	padding-right: 8%;
 }
 .grid .grid-item {
+	color: #fff;
 }
 .grid .text-content h5 {
 	font-weight: bold;
@@ -1292,9 +1296,9 @@ padding:45px 0;
 	float: left;
 	margin: 0 3px 3px 0;
 	opacity: 1;
-	-webkit-transform: scale(1, 1);
-	-webkit-transition-timing-function: ease-out;
-	-webkit-transition-duration: 250ms;
+	transform: scale(1, 1);
+	transition-timing-function: ease-out;
+	transition-duration: 250ms;
 	-moz-transform: scale(1, 1);
 	-moz-transition-timing-function: ease-out;
 	-moz-transition-duration: 250ms;
