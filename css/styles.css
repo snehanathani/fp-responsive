@@ -778,8 +778,14 @@ ul.plan.plan2.featured .plan-name {
 background: #a30046;
 }
 /* --Portfolio----- */
-#work {
+#upcomingProjects {
 	background: #0E0408;
+}
+
+#upcomingProjects h2 {
+	color: #fff !important;
+}
+#work {
 	color: #fff;
 }
 #work h2 {
